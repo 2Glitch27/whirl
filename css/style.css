@@ -10,6 +10,13 @@ body{
 }
 .header{
     padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    
+
 }
 
 .header-row{
@@ -43,7 +50,9 @@ text-decoration: none;
 }
 
 .btn{
-    display: block;
+    display:flex;
+    align-items: center;
+    gap: 5px;
     padding: 6px 20px;
     font-size: 15px;
     line-height: 160%;
@@ -54,11 +63,17 @@ text-decoration: none;
 .btn.btn--blue{
 color: #0070A0;
 }
+
+.btn.btn--blue svg path{
+stroke: #006B99;
+}
 .btn.btn--blue:hover{
     background-color: #0070A0;
     color: white;
 }
-
+.btn.btn--blue:hover svg path{
+    stroke: white;
+}
 
 .btn.btn--white{
 background-color: #0070A0;
@@ -69,4 +84,74 @@ color: white;
 background: white;
 color: #0070A0;
 }
+.hero{
+    padding: 145px 0 80px;
 
+}
+.hero-row{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: space-between;
+}
+.hero-left{
+    max-width: 525px;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+.hero-title{
+margin: 0;
+font-family: "Fraunces", sans-serif;
+font-weight: 400;
+font-size: 58px;
+line-height: 110%;
+letter-spacing: 0em;
+color: #1f1f1f;
+}
+.desc{
+margin: 0;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: #1f1f1f;
+max-width: 67%;
+}
+
+.hero-btns{
+    display: flex;
+    gap: 12px;
+}
+.advantage-item{
+    padding: 32px 32px 40px 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 100%;
+}
+.advantes-item-title{
+    font-family: "Fraunces", sans-serif;
+font-weight: 400;
+font-size: 25px;
+line-height: 125%;
+letter-spacing: 0.01em;
+color: #1f1f1f;
+}
+.advanted-item-desc{
+font-size: 15px;
+line-height: 160%;
+letter-spacing: 0.01em;
+color: #1f1f1f;
+}
+
+.advantage-item-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 16px;
+}
+.advantage-item-container{
+    width: 33.3%;
+    padding: 16px;
+    box-sizing: border-box;
+}
