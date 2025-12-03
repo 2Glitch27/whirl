@@ -1,56 +1,58 @@
-body{
+body {
     font-family: "Inter", sans-serif;
-     font-optical-sizing: auto;
+    font-optical-sizing: auto;
 
 }
-.container{
+
+.container {
     max-width: 1130px;
     width: 100%;
     margin: 0 auto;
 }
-.header{
+
+.header {
     padding: 20px 0;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background-color: white;
-    
+
 
 }
 
-.header-row{
+.header-row {
     display: flex;
     align-items: center;
     gap: 36px;
 }
 
-.menu{
+.menu {
     padding: 0;
     margin: 0;
     list-style: none;
-   display: flex;
-   gap: 24px;
-    
+    display: flex;
+    gap: 24px;
+
 }
 
-.menu-link{
-font-weight: 400;
-font-size: 15px;
-line-height: 160%;
-letter-spacing: 0.01em;
-color: #33383f;
-text-decoration: none;
+.menu-link {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: #33383f;
+    text-decoration: none;
 }
 
-.header-btns{
+.header-btns {
     display: flex;
     gap: 12px;
     margin-left: auto;
 }
 
-.btn{
-    display:flex;
+.btn {
+    display: flex;
     align-items: center;
     gap: 5px;
     padding: 6px 20px;
@@ -58,71 +60,80 @@ text-decoration: none;
     line-height: 160%;
     letter-spacing: 0.01em;
     text-decoration: none;
-   transition: 0.3s;
-}
-.btn.btn--blue{
-color: #0070A0;
+    transition: 0.3s;
 }
 
-.btn.btn--blue svg path{
-stroke: #006B99;
+.btn.btn--blue {
+    color: #0070A0;
 }
-.btn.btn--blue:hover{
+
+.btn.btn--blue svg path {
+    stroke: #006B99;
+}
+
+.btn.btn--blue:hover {
     background-color: #0070A0;
     color: white;
 }
-.btn.btn--blue:hover svg path{
+
+.btn.btn--blue:hover svg path {
     stroke: white;
 }
 
-.btn.btn--white{
-background-color: #0070A0;
-color: white;
+.btn.btn--white {
+    background-color: #0070A0;
+    color: white;
 }
 
-.btn.btn--white:hover{
-background: white;
-color: #0070A0;
+.btn.btn--white:hover {
+    background: white;
+    color: #0070A0;
 }
-.hero{
+
+.hero {
     padding: 145px 0 80px;
 
 }
-.hero-row{
+
+.hero-row {
     display: flex;
     align-items: center;
     gap: 24px;
     justify-content: space-between;
 }
-.hero-left{
+
+.hero-left {
     max-width: 525px;
     display: flex;
     flex-direction: column;
     gap: 21px;
 }
-.hero-title{
-margin: 0;
-font-family: "Fraunces", sans-serif;
-font-weight: 400;
-font-size: 58px;
-line-height: 110%;
-letter-spacing: 0em;
-color: #1f1f1f;
-}
-.desc{
-margin: 0;
-font-size: 20px;
-line-height: 150%;
-letter-spacing: 0.01em;
-color: #1f1f1f;
-max-width: 67%;
+
+.hero-title {
+    margin: 0;
+    font-family: "Fraunces", sans-serif;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 110%;
+    letter-spacing: 0em;
+    color: #1f1f1f;
 }
 
-.hero-btns{
+.desc {
+    margin: 0;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+    max-width: 67%;
+}
+
+.hero-btns {
     display: flex;
     gap: 12px;
 }
-.advantage-item{
+
+.advantage-item {
     padding: 32px 32px 40px 32px;
     box-sizing: border-box;
     display: flex;
@@ -130,44 +141,47 @@ max-width: 67%;
     gap: 8px;
     height: 100%;
 }
-.advantes-item-title{
+
+.advantes-item-title {
     font-family: "Fraunces", sans-serif;
-font-weight: 400;
-font-size: 25px;
-line-height: 125%;
-letter-spacing: 0.01em;
-color: #1f1f1f;
-}
-.advanted-item-desc{
-font-size: 15px;
-line-height: 160%;
-letter-spacing: 0.01em;
-color: #1f1f1f;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
 }
 
-.advantage-item-row{
+.advanted-item-desc {
+    font-size: 15px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+}
+
+.advantage-item-row {
     display: flex;
     flex-wrap: wrap;
     margin: 16px;
 }
-.advantage-item-container{
+
+.advantage-item-container {
     width: 33.3%;
     padding: 16px;
     box-sizing: border-box;
 }
 
 
-.care{
+.care {
     margin-top: 120px;
     background: #f7f9fa;
     padding: 80px 0;
 }
 
 
-.care-title{
+.care-title {
     margin: 0 0 62px;
     font-family: "Fraunces", sans-serif;
-     font-weight: 400;
+    font-weight: 400;
     font-size: 42px;
     line-height: 120%;
     letter-spacing: 0em;
@@ -176,36 +190,37 @@ color: #1f1f1f;
 
 }
 
-.care-title span{
+.care-title span {
 
- font-family: "Fraunces", sans-serif;
-font-size: 39px;
-line-height: 129%;
-letter-spacing: 0.01em; 
+    font-family: "Fraunces", sans-serif;
+    font-size: 39px;
+    line-height: 129%;
+    letter-spacing: 0.01em;
 }
 
-.care-faq{
+.care-faq {
     padding: 0;
     margin: 0;
     list-style: none;
     max-width: 450px;
 }
 
-.care-faq li{
+.care-faq li {
     padding: 16px 12px;
     border-top: 1px solid #c2cdd8;
-    border-bottom: 1px solid #c2cdd8;;
+    border-bottom: 1px solid #c2cdd8;
+    ;
 }
 
-.care-faq li:hover .care-faq-body{
-/* display: block; */
-max-height: 500px;
-opacity: 1;
-color: #1f1f1f;
+.care-faq li:hover .care-faq-body {
+    /* display: block; */
+    max-height: 500px;
+    opacity: 1;
+    color: #1f1f1f;
 
 }
 
-.care-faq-head{
+.care-faq-head {
     display: flex;
     align-items: center;
     gap: 16px;
@@ -217,31 +232,56 @@ color: #1f1f1f;
 
 }
 
-.care-faq-head:after{
-content: "";
-width: 18px;
-height: 10px;
-background: url(../img/cveron_bottom.svg);
-margin-left: auto;
+.care-faq-head:after {
+    content: "";
+    width: 18px;
+    height: 10px;
+    background: url(../img/cveron_bottom.svg);
+    margin-left: auto;
 }
 
-.care-faq-body{
+.care-faq-body {
     /* display: none; */
     padding-left: 48px;
     font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.01em;
-color: #1f1f1f;
-max-height: 0;
-overflow: hidden;
-transition: 0.3s;
-opacity: 0;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+    opacity: 0;
 }
-.care-faq li+li{
+
+.care-faq li+li {
     margin-top: 1px;
 }
-.care-row{
+
+.care-row {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
+
+
+.item {
+    height: 300px;
+    border: 1px solid rebeccapurple;
+
+}
+
+
+/* .grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px 24px;
+    так же работает justify-content: ; align-items: ;
+}
+
+.grid__item{
+    height: 300px;
+    border: 1px solid rebeccapurple;
+    box-sizing: border-box;
+    grid-column: 5/6;
+    grid-row: 1/ span 2
+}     */
